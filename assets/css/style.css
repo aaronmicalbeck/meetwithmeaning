@@ -81,6 +81,7 @@ html {
 #section-sub-header-1 {
   display: flex;
   justify-content: center;
+  text-align: right;
   margin: 0 0 150px 0;
   font-family: "Work Sans", sans-serif;
   width: 100%;
@@ -124,6 +125,8 @@ hr {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+
+
 }
 
 /* Portrait */
@@ -145,88 +148,52 @@ hr {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
-/* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (max-device-width: 375px) 
+ { 
 
-  
+    #header-logo {
+      height: 200px;
+      width: 370px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
 
-}
+    #section-header-2, #section-header-3, #section-header-4 {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0 50px 0;
+      font-family: "Work Sans", sans-serif;
+      width: 100%;
+      color: rgb(57, 89, 185);
+      font-weight: 800;
+      font-size: xx-large;
+    }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+    #section-sub-header-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 100px 1px;
+    font-family: "Work Sans", sans-serif;
+    width: 100%;
+    color: rgb(93, 90, 86);
+    }
 
-}
+    
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+    #welcome-info-section, #welcome-info-section-2, #contact-info-section{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: "Work Sans", sans-serif;
+      padding: 0;
+      margin-bottom: 100px;
+      line-height: 25px;
+    }
 
-}
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
+    #contact-info-section{
+      flex-flow: wrap;
+    }
 
 
