@@ -1,48 +1,112 @@
-body, html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    font-family: 'Bitter', serif;
-    background-color: aquamarine;
-  }
-
-.header-main{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: aquamarine;
-    border-bottom: salmon 10px solid;
-    border-top: salmon 10px solid;
-}
-.header-inner{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: none;
+  font-family: "Bitter", serif;
+  background-color: white;
 }
 
-#header-logo{
-    height: 200px;
-    width: 200px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+.header-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header-inner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
-#left-nav-container{
-    position: absolute;
-    left: 15%;
-    top: 12%
+#header-logo {
+  height: 200px;
+  width: 370px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-#right-nav-container{
-    position: absolute;
-    right: 15%;
-    top: 12%;
+.nav-span {
+  padding: 0 25px 0 25px;
+  font-family: "Work Sans", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(57, 89, 185);
 }
 
-.nav-span{
-    padding: 0 25px 0 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
-    color: rgb(57, 89, 185);
+#left-nav-container {
+  margin-right: 50px;
+  margin-top: 100px;
 }
+#right-nav-container {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+#body-section-inner-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#intro-image {
+  margin: 25px 0 50px 0;
+  width: 100%;
+}
+
+#body-section-inner-2 {
+  justify-content: center;
+}
+
+#section-header-1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 25px 0;
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  color: rgb(93, 90, 86);
+  font-weight: 800;
+}
+
+#section-header-2, #section-header-3, #section-header-4 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 100px 0;
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  color: rgb(93, 90, 86);
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+
+#section-sub-header-1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 150px 0;
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  color: rgb(93, 90, 86);
+
+}
+
+hr {
+    border: 1px solid rgb(24, 200, 8);
+    width: 20%;
+}
+
+#welcome-header{
+    font-family: "Work Sans", sans-serif;
+    font-size: xx-large;
+}
+
+#welcome-info-section, #welcome-info-section-2, #contact-info-section{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  padding: 0 400px 0 400px;
+  margin-bottom: 150px;
+  line-height: 35px;
+
+  
+}
+
